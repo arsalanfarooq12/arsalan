@@ -1,81 +1,49 @@
 body {
-
-    background-color:whitesmoke;
+ 
+    background-color: whitesmoke;
     background-image: url(williamstown-1057646.jpg);
     background-size: cover;
-
-
-
-
-
+    background-size: 100%;
 }
 
 .name {
-    /* display: flex; */
+   
     float: left;
     padding: 12px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
+    margin-right: 100px;
+
     font-family: 'Barriecito', cursive;
     font-size: 4rem;
-    /* border: solid red; */
-
-
-
-
-
+    border: solid red;
 }
-.discription{
+
+.discription {
+    /* style for the discription under the Name. */
     font-size: 20px;
-    
+
     font-family: 'Ubuntu', sans-serif;
 }
 
-.navbar {
-    /* display: flex; */
-    float: right;
-    margin-top: 5px;
-    margin-right: 10px;
-    padding: 15px;
-
- 
-   
-
-    /* border: solid black; */
-}
-
-.navbar li {
-    color: black;
-    font-size: 15px;
-    padding: 4px;
- cursor: pointer;
-
-}
-
-.navbar:visited {
-
-    color: grey;
 
 
-}
-
-.navbar li:hover {
-    color: yellow;
-}
-.logo{
+.profile {
+    /* style for profile picture  */
     margin-top: 50px;
     margin-left: 200px;
-    display: inline-block;
-    height:150px;
-    width: 150px;
-    /* border: solid blue; */
-    background-image: url(img1.jpg);
+    display: flex;
+    flex-direction: column-reverse;
+    height: 250px;
+    width: 250px;
+
+    background-image: url(IMG_20231010_104056_752.jpg);
     border-radius: 10cm;
     background-size: cover;
-    
+
 }
 
- ul { 
+ul {
     list-style: none;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
- } 
+}
